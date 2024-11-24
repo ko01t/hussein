@@ -166,3 +166,50 @@ footer {
     height: 20rem;
     
 }
+/* استعلامات الوسائط للشاشات الصغيرة */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navigation a {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .movie {
+        width: 100%;
+    }
+
+    .movie img {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 0.9em;
+        text-align: center;
+    }
+}
+
